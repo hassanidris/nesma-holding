@@ -352,7 +352,7 @@ select {
 
 header {
     height: 650px;
-    background: url(../images/header.png);
+    background: url(../images/bnr_home.webp);
     background-size: cover;
     background-position: top right;
     position: relative;
@@ -948,6 +948,7 @@ footer {
                 height: 200px;
                 border: 1px solid #9993;
                 transition: all 0.3s ease;
+                padding: 40px 20px;
                 img {
                     width: 100%;
                     height: 100%;
@@ -1076,9 +1077,10 @@ footer {
         }
         .info {
             .logo_img {
-                margin: 25px 0 5px;
+                margin: 25px 0 25px;
                 img {
-                    height: 90px;
+                    width: 120px;
+                    // height: 50px;
                 }
             }
             .title {
@@ -1230,6 +1232,9 @@ footer {
                     .date {
                         letter-spacing: 4px;
                         font-size: 12px;
+                        text-align: center;
+                        max-width: 50px;
+                        display: block;
                     }
                 }
                 .new_title {
